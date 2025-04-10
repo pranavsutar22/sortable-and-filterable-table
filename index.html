@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="Book.css">
+</head>
+
+<body>
+
+    <h1> Books</h1>
+    <button id="fetchBooks">Fetch Books</button>
+    <p id="loading" style="display: none;">Loading...</p>
+
+    <table id="bookTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="bookData"></tbody>
+    </table>
+
+    <script src="Book.js"></script>
+
+</body>
+
+</html>
